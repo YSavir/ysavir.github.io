@@ -22,6 +22,7 @@ body {
 h1 {
   font-size: 6em;
   color: #800080;
+  text-align: center;
 }
 
 p {
@@ -34,5 +35,9 @@ p {
 @media (max-width: 1000px) {
   .content {
     padding: 20px;
+  }
+
+  h1 {
+    font-size: 4em;
   }
 }
