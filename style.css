@@ -32,6 +32,22 @@ p {
   color:  #682860;
 }
 
+#response {
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: none;
+}
+
+.pleased {
+  background-image: url('./pleased.jpg');
+}
+
+.displeased {
+  background-image: url('./displeased.jpg');
+}
+
 @media (max-width: 1000px) {
   .content {
     padding: 20px;
